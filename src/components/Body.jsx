@@ -4,8 +4,9 @@ import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import axios from 'axios';
+const API_KEY='0242e4e5c46b463ea37cc795327cc5f9'
 
-const API_KEY = process.env.API_KEY; 
+//const API_KEY = process.env.API_KEY; 
 const Hero = () => {
     const [resData, setResData] = useState([]);
     const [filterResData, setFilterResData] = useState([]);
